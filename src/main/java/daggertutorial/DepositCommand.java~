@@ -1,11 +1,11 @@
-package dagger.tutorial;
+package daggertutorial;
 
 import java.math.BigDecimal;
 import java.util.List;
 
 import javax.inject.Inject;
 
-import dagger.tutorial.Database.Account;
+import daggertutorial.Database.Account;
 
 final class DepositCommand implements Command {
 

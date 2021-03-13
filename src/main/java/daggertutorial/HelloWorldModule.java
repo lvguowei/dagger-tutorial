@@ -1,4 +1,4 @@
-package dagger.tutorial;
+package daggertutorial;
 
 import dagger.Binds;
 import dagger.Module;
@@ -6,10 +6,10 @@ import dagger.multibindings.IntoMap;
 import dagger.multibindings.StringKey;
 
 @Module
-abstract class UserCommandsModule {
+abstract class HelloWorldModule {
 
     @Binds
     @IntoMap
-    @StringKey("deposit")
-    abstract Command depositCommand(DepositCommand command);
+    @StringKey("hello")
+    abstract Command helloWorldCommand(HelloWorldCommand command);
 }

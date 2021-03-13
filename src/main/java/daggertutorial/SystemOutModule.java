@@ -1,4 +1,4 @@
-package dagger.tutorial;
+package daggertutorial;
 
 import dagger.Module;
 import dagger.Provides;

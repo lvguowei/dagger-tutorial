@@ -40,7 +40,7 @@
           <configuration>
             <archive>
               <manifest>
-                <mainClass>dagger.tutorial.App</mainClass>
+                <mainClass>daggertutorial.App</mainClass>
               </manifest>
             </archive>
             <descriptorRefs>

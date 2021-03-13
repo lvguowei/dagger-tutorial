@@ -1,9 +1,7 @@
-package dagger.tutorial;
+package daggertutorial;
 
 import java.util.List;
 import java.util.Optional;
-
-import dagger.tutorial.CommandRouterFactory;
 
 interface Command {
 

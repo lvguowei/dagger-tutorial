@@ -1,4 +1,4 @@
-package dagger.tutorial;
+package daggertutorial;
 
 import java.math.BigDecimal;
 import java.util.HashMap;
