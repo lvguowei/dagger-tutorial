@@ -1,15 +1,20 @@
 package daggertutorial;
 
 import dagger.Binds;
+import dagger.BindsOptionalOf;
 import dagger.Module;
 import dagger.multibindings.IntoMap;
 import dagger.multibindings.StringKey;
+import daggertutorial.Database.Account;
 
 @Module
-abstract class LoginCommandModule {
+interface LoginCommandModule {
 
     @Binds
     @IntoMap
     @StringKey("login")
-    abstract Command loginCommand(LoginCommand command);
+    Command loginCommand(LoginCommand command);
+
+    @BindsOptionalOf
+    Account optionalAccount();
 }
